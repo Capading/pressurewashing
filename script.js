@@ -1,4 +1,4 @@
-// Simple scroll-trigger animation
+// Fade-in animation on scroll
 window.addEventListener('scroll', () => {
   document.querySelectorAll('.fade-in').forEach(el => {
     const rect = el.getBoundingClientRect();
